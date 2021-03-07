@@ -1,2 +1,4 @@
 # Processing-based-2D-SPH
 A Processing-based demonstration of two-dimensional Smoothed Particle Hydrodynamics (SPH).
+
+Uses the Cole equation of state (http://www.sklogwiki.org/SklogWiki/index.php/Cole_equation_of_state) to simulate a liquid. Various parameters of the simulation can be set using sliders. Tools to manipulate the fluid (selectable using the two triangles below the "Slected tool" text) are the addition of SPH particles, removal of SPH particles and forces applied to particles within a 50x50 pixel area (left,right,up,down,inwards and outwards directions). Tools are used with a left mouse button click. A quadtree is used to help identify the nearest neigbours of the SPH particles. The SPH particles are contained within the display region using walls that apply a exponentially increasing force to SPH particles the closer they get to them.
